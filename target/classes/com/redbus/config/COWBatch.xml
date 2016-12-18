@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeTestSuite">
+	<test name="COWRegression">
+	<listeners>
+			<listener class-name="com.redbus.utilities.RetryListener" />
+		</listeners>
+		<classes>
+			<class name="com.redbus.testScripts.REDBUS001SearchForBuses" />
+		</classes>
+	</test>
+</suite>
